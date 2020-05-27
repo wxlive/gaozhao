@@ -1,0 +1,13 @@
+{
+   maxPage:'12',
+   itemData:[
+       {img:"@image('230x368',red,'#fff','avatar')",id:'1',info:"@csentence(10,15)"},
+       {img:"@image('230x368',red,'#fff','avatar')",id:'1',info:"@csentence(10,15)"},
+       {img:"@image('230x368',red,'#fff','avatar')",id:'1',info:"@csentence(10,15)"},
+       {img:"@image('230x368',red,'#fff','avatar')",id:'1',info:"@csentence(10,15)"},
+       {img:"@image('230x368',red,'#fff','avatar')",id:'1',info:"@csentence(10,15)"},
+       {img:"@image('230x368',red,'#fff','avatar')",id:'1',info:"@csentence(10,15)"},
+       {img:"@image('230x368',red,'#fff','avatar')",id:'1',info:"@csentence(10,15)"}
+        
+   ]
+}

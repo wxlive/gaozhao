@@ -1,0 +1,4 @@
+{
+    img:"@image('700x575',red,'#fff','avatar')",
+    title:'@csentence(8,12)'
+}
