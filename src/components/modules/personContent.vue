@@ -7,7 +7,13 @@
                 </el-breadcrumb>
             </div>
             <div class="person-header mt30">
-                <img :src="photo" class="person-photo" alt="">
+
+                <div style="padding-right:20px">
+                      <img v-if="!videosrc" :src="photo" class="person-photo" alt="">
+                     <video v-else :poster="photo" style="object-fit:fill" :src="videosrc" width="260" height="180" controls></video>
+                </div>
+               
+
                 <div class="flex-grew">
                     <div  class="person-info-box">
                         <div>
@@ -64,7 +70,8 @@ export default {
             zan:'',
             zanimg:'../../public/staticimg/zan1.png',
             zanon:0,
-            itemData:null
+            itemData:null,
+            videosrc:''
         }
     },
     computed:{
@@ -101,6 +108,8 @@ export default {
                 this.job=res.data.job
                 this.name=res.data.name
                 this.say=res.data.say
+                this.videosrc = res.data.videosrc
+                
                 window.document.title = this.school
             })
         },
@@ -134,7 +143,7 @@ export default {
         justify-content: space-between;
     }
     .person-photo{
-        width: 300px;
+        width: 180px;
         height: 180px;
         margin-right: 20px;
         border-radius: 6px;

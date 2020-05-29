@@ -5,7 +5,7 @@
                  <el-row>
                 <el-col :span="16">
                     <div class="">
-                            <span  class="tmar active" >安徽省重点新闻门户网站</span>       
+                            <span  class="tmar " >安徽省重点新闻门户网站</span>       
                             <span  class="tmar" > 安徽青年报官方网站 </span>         
                             <span class="tmar"> 安徽省青年新闻工作者协会官方网站 </span>  
                     </div>
